@@ -1,0 +1,19 @@
+# Terraform state files (can contain secrets, sensitive info)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# CLI configuration files storing local state or override info
+.terraform/
+
+# Override files (local overrides for experimentation)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive variable files (if you use *.tfvars files with secrets)
+*.tfvars
+*.tfvars.json
